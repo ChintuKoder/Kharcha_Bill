@@ -26,14 +26,12 @@ Label(frame,text=" \tKhatam Bye Bye Tata Good Bye Gaya...(;",bg="#074463",font=(
 
 
 
-
 # bottom label 
 
 label = Label(root,text="Note: Please do not pay any amount without Receipt. (:",relief=GROOVE,bd=9,font="Helvetica 15 bold italic",bg="#074463",fg="white smoke",width=78).place(x=1,y=509)
 
 
 def show():
-
     if a.get()=="":
         messagebox.showerror("Error","Please enter the Date :(") 
     elif b.get()=="":
@@ -96,19 +94,16 @@ frame1 = Frame(root,bg="#074463",highlightbackground="black",bd=9,relief=GROOVE,
 
 
 label = Label(frame1,text="Date : ",bg="#074463",fg="lightgreen",font=("times new roman", 19, "bold")).place(x=42,y=67)
-label = Label(frame1,text="From_Date : ",bg="#074463",fg="lightgreen",font=("times new roman", 19, "bold")).place(x=42,y=92)
-label = Label(frame1,text="To_Date : ",bg="#074463",fg="lightgreen",font=("times new roman", 19, "bold")).place(x=42,y=120)
-label = Label(frame1,text="Tenant_Name : ",bg="#074463",fg="lightgreen",font=("times new roman", 19, "bold")).place(x=42,y=150)
-label = Label(frame1,text="Current_M_Unit : ",bg="#074463",fg="lightgreen",font=("times new roman",19, "bold")).place(x=42,y=180)
-label = Label(frame1,text="Last_M_Unit : ",bg="#074463",fg="lightgreen",font=("times new roman", 19, "bold")).place(x=42,y=210)
-label = Label(frame1,text="Unit : ",bg="#074463",fg="lightgreen",font=("times new roman", 19, "bold")).place(x=42,y=240)
-label = Label(frame1,text="Rent : ",bg="#074463",fg="lightgreen",font=("times new roman", 19, "bold")).place(x=42,y=270)
+label = Label(frame1,text="From_Date : ",bg="#074463",fg="lightgreen",font=("times new roman", 19, "bold")).place(x=42,y=95)
+label = Label(frame1,text="To_Date : ",bg="#074463",fg="lightgreen",font=("times new roman", 19, "bold")).place(x=42,y=125)
+label = Label(frame1,text="Tenant_Name : ",bg="#074463",fg="lightgreen",font=("times new roman", 19, "bold")).place(x=42,y=155)
+label = Label(frame1,text="Current_M_Unit : ",bg="#074463",fg="lightgreen",font=("times new roman",19, "bold")).place(x=42,y=185)
+label = Label(frame1,text="Last_M_Unit : ",bg="#074463",fg="lightgreen",font=("times new roman", 19, "bold")).place(x=42,y=215)
+label = Label(frame1,text="Unit : ",bg="#074463",fg="lightgreen",font=("times new roman", 19, "bold")).place(x=42,y=250)
+label = Label(frame1,text="Rent : ",bg="#074463",fg="lightgreen",font=("times new roman", 19, "bold")).place(x=42,y=283)
 label = Label(frame1,text="Total_Amount : ",bg="#074463",fg="lightgreen",font=("times new roman" ,19, "bold")).place(x=42,y=410)
 label = Label(frame1,text="Electricity_Bill : ",bg="#074463",fg="lightgreen",font=("times new roman" ,19, "bold")).place(x=42,y=460)
 label = Label(frame1,text="Click On G_Button =>>",bg="#074463",fg="lightgreen",font=("times new roman" ,16, "bold")).place(x=35,y=338)
-
-
-
 
 
 
