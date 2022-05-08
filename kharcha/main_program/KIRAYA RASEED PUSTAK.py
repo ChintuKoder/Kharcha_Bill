@@ -63,7 +63,7 @@ def show():
     with open(a.get()+".txt","w") as k:
         k.write("\t        Binesh Bhati"+"\n")
         k.write("--------------------------------------------------------"+"\n")
-        k.write("H.No-225, Sec-85, Sai Encalve, Vill-KESAV_GAUR, NEW DELHI "+"\n")
+        k.write("H.No-225, Sec-85, Sai Encalve, Vill-KESAV_GAUR, NEW_DELHI "+"\n")
         k.write("========================================================="+"\n")
         k.write("Date: "+a.get()+"\n")
         k.write("From_Date: "+b.get()+"\n")
