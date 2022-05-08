@@ -109,8 +109,6 @@ label = Label(frame1,text="Click On G_Button =>>",bg="#074463",fg="lightgreen",f
 
 # entry 
 
-# frame2 = Frame(root,bg="#074463",highlightbackground="black",bd=9,relief=GROOVE,highlightthickness=1,width=500,height=450).place(x=1,y=56)
-
 e1 = Entry(root,bd=5,bg="cadetblue",fg="gold",relief=SUNKEN,textvariable=a,font="ariel 15 bold",width="15").place(x=250,y=68)
 e2 = Entry(root,bd=5,bg="cadetblue",fg="gold",relief=SUNKEN,textvariable=b,font="ariel 15 bold",width="15").place(x=250,y=100)
 e3 = Entry(root,bd=5,bg="cadetblue",fg="gold",relief=SUNKEN,textvariable=c,font="ariel 15 bold",width="15").place(x=250,y=128)
